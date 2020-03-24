@@ -1,0 +1,75 @@
+# Part 1
+### a)(base) zipcodes-MBP:Grep.Data.CatchEmAll2 amishra$ ggrep -r -P 'rill' forest/* > greps/beedrill.txt 
+(base) zipcodes-MBP:Grep.Data.CatchEmAll2 amishra$ ggrep -r -P 'toise' forest/* > greps/blastoise.txt
+(base) zipcodes-MBP:Grep.Data.CatchEmAll2 amishra$ ggrep -r -P 'asaur' forest/* > greps/blubasaur.txt
+(base) zipcodes-MBP:Grep.Data.CatchEmAll2 amishra$ ggrep -r -P 'erfree' forest/* > greps/butterfree.txt
+(base) zipcodes-MBP:Grep.Data.CatchEmAll2 amishra$ ggrep -r -P 'toise' forest/* > greps/blastoise.txt
+(base) zipcodes-MBP:Grep.Data.CatchEmAll2 amishra$ ggrep -r -P 'izard' forest/* > greps/charizard.txt
+(base) zipcodes-MBP:Grep.Data.CatchEmAll2 amishra$ ggrep -r -P 'mander' forest/* > greps/charmander.txt
+(base) zipcodes-MBP:Grep.Data.CatchEmAll2 amishra$ ggrep -r -P 'meleon' forest/* > greps/charmeleon.txt
+(base) zipcodes-MBP:Grep.Data.CatchEmAll2 amishra$ ggrep -r -P 'aur' forest/* > greps/ivysaur.txt
+(base) zipcodes-MBP:Grep.Data.CatchEmAll2 amishra$ ggrep -r -P 'lypuff' forest/* > greps/jigglypuff.txt
+(base) zipcodes-MBP:Grep.Data.CatchEmAll2 amishra$ ggrep -r -P 'th' forest/* > greps/meowth.txt
+(base) zipcodes-MBP:Grep.Data.CatchEmAll2 amishra$ ggrep -r -P 'chu' forest/* > greps/pikaquuchu.txt
+(base) zipcodes-MBP:Grep.Data.CatchEmAll2 amishra$ ggrep -r -P 'uck' forest/* > greps/psyduck.txt
+(base) zipcodes-MBP:Grep.Data.CatchEmAll2 amishra$ ggrep -r -P 'rtle' forest/* > greps/squirtle.txt
+(base) zipcodes-MBP:Grep.Data.CatchEmAll2 amishra$ ggrep -r -P 'saur' forest/* > greps/venusaur.txt
+(base) zipcodes-MBP:Grep.Data.CatchEmAll2 amishra$ ggrep -r -P 'ortle' forest/* > greps/wartortle.txt
+
+
+
+
+### b)done
+
+
+
+### c)grep 'venu' forest/* | cut -f1 -d":" | sort | uniq -c
+grep "venu" forest/* | wc -l
+      32
+
+
+
+
+
+
+
+
+
+
+
+
+# Part 2
+### a)
+grep 'filescan_00.1' ./* | cut -f1 -d":" | sort | uniq -c
+  40 ./beedrill.txt
+  38 ./blastoise.txt
+  30 ./blubasaur.txt
+  38 ./butterfree.txt
+  30 ./ivysaur.txt
+  30 ./venusaur.txt
+'filescan_00.2' ./* | cut -f1 -d":" | sort | uniq -c
+  40 ./charizard.txt
+  36 ./charmander.txt
+  37 ./charmeleon.txt
+grep 'filescan_00.3' ./* | cut -f1 -d":" | sort | uniq -c
+  33 ./ivysaur.txt
+  34 ./jigglypuff.txt
+  33 ./meowth.txt
+  40 ./pikaquuchu.txt
+grep 'filescan_00.4' ./* | cut -f1 -d":" | sort | uniq -c
+  32 ./ivysaur.txt
+  37 ./psyduck.txt
+  71 ./squirtle.txt
+  32 ./venusaur.txt
+  37 ./wartortle.txt
+
+
+
+
+
+### b)
+
+
+
+
+
